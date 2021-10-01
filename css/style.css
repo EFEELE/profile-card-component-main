@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+body {
+  margin: 0;
+  background-color: #19a2ae;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: left 125% top 170%, right 125% bottom 170%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.wrapper {
+  display: contents;
+}
+
+img.back {
+  width: 100%;
+  position: absolute;
+}
+
+img.top {
+  display: block;
+  margin-left: -50%;
+  margin-top: -50%;
+}
+
+img.bottom {
+  display: block;
+  margin-left: 50%;
+  margin-bottom: -50%;
+}
+
+.card {
+  width: 90%;
+  background-color: white;
+  z-index: 1;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.background {
+  background-image: url(../images/bg-pattern-card.svg);
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.profilePicture {
+  width: 100%;
+  text-align: center;
+  margin-top: -48px;
+}
+
+.profilePicture img {
+  border-radius: 65px;
+  border: 5px solid white;
+}
+
+h3 {
+  color: #2d3248;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+h3 span {
+  color: #969696;
+  font-weight: 400;
+}
+
+p {
+  color: #969696;
+  font-weight: 200;
+  margin-top: 0.5rem;
+}
+
+.counters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  border-top: 1px solid #96969661;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.counters span {
+  font-weight: 700;
+  color: #2d3248;
+  font-size: 1.1rem;
+}
+
+.counter {
+  margin-left: 1.4rem;
+  margin-right: 1.4rem;
+}
+
+.counters p {
+  font-size: 12px;
+}
+
+.attribution {
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-position: left -115% top 200%, right -125% bottom 215%;
+  }
+  .wrapper {
+    width: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
